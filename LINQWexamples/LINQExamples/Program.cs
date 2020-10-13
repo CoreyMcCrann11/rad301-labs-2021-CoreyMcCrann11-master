@@ -11,6 +11,7 @@ namespace LINQExamples
     {
         static void Main(string[] args)
         {
+            //comment
             Activity.Track("Linq Example First Run");
 
             GameObjects _gobjs = new GameObjects();
