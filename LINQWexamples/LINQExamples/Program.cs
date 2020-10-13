@@ -12,6 +12,7 @@ namespace LINQExamples
         static void Main(string[] args)
         {
             Activity.Track("Linq Example First Run");
+
             GameObjects _gobjs = new GameObjects();
 
             foreach (var item in _gobjs.Collectables)
