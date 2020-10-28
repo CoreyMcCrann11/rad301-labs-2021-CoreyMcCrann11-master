@@ -2,14 +2,14 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ActivityTracker.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ActivityName" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">LINQExample</Value>
+    <Setting Name="ActivityName" Provider="RAD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RADLabWeek12021</Value>
     </Setting>
     <Setting Name="StudentID" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">ppowell</Value>
+      <Value Profile="(Default)">S00189165</Value>
     </Setting>
     <Setting Name="StudentName" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Paul Powell</Value>
+      <Value Profile="(Default)">Corey McCrann</Value>
     </Setting>
   </Settings>
 </SettingsFile>

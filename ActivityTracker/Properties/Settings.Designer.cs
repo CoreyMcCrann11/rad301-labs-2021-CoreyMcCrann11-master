@@ -24,8 +24,9 @@ namespace ActivityTracker.Properties {
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        //[global::System.Configuration.SettingsProviderAttribute(typeof(RAD))]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("LINQExample")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RADLabWeek12021")]
         public string ActivityName {
             get {
                 return ((string)(this["ActivityName"]));
@@ -34,7 +35,7 @@ namespace ActivityTracker.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ppowell")]
+        [global::System.Configuration.DefaultSettingValueAttribute("S00189165")]
         public string StudentID {
             get {
                 return ((string)(this["StudentID"]));
@@ -43,7 +44,7 @@ namespace ActivityTracker.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Paul Powell")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Corey McCrann")]
         public string StudentName {
             get {
                 return ((string)(this["StudentName"]));
