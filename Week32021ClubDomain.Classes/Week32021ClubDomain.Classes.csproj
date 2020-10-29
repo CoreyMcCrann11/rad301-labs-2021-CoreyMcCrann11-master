@@ -51,12 +51,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Club.cs" />
+    <Compile Include="ClubContext.cs" />
+    <Compile Include="ClubEvent.cs" />
+    <Compile Include="EventAttendance.cs" />
+    <Compile Include="Members.cs" />
+    <Compile Include="Migrations\202010292111176_Club Model Added.cs" />
+    <Compile Include="Migrations\202010292111176_Club Model Added.designer.cs">
+      <DependentUpon>202010292111176_Club Model Added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202010292111176_Club Model Added.resx">
+      <DependentUpon>202010292111176_Club Model Added.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

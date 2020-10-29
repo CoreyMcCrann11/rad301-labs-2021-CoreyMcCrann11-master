@@ -7,6 +7,7 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
     using Week32021MVCClub.Models;
+    using Week32021ClubDomain.Classes;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Week32021MVCClub.Models.ApplicationDbContext>
     {
@@ -34,6 +35,8 @@
             context.Roles.AddOrUpdate(r => r.Name,
                 new IdentityRole { Name = "member" }
                 );
+
+
 
             PasswordHasher ps = new PasswordHasher();
 
@@ -64,11 +67,18 @@
                 });
             context.SaveChanges();
 
+
+
             ApplicationUser admin = manager.FindByEmail("powell.paul@itsligo.ie");
             if (admin != null)
             {
                 manager.AddToRoles(admin.Id, new string[] { "Admin", "member", "ClubAdmin" });
             }
+
+
+
         }
+
+       
     }
 }
