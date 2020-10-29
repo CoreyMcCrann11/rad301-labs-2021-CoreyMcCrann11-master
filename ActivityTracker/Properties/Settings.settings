@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ActivityName" Provider="RAD" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">RADLabWeek12021</Value>
+      <Value Profile="(Default)">Week2Lab12020GRP2</Value>
     </Setting>
     <Setting Name="StudentID" Type="System.String" Scope="Application">
       <Value Profile="(Default)">S00189165</Value>

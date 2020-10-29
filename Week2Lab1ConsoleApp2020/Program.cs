@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ActivityTracker;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace Week2Lab1ConsoleApp2020
     {
         static void Main(string[] args)
         {
+            Activity.Track("Creating Console App");
+            Console.ReadKey();
+
         }
     }
 }
