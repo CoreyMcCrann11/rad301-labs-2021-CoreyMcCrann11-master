@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rad3012020Week1Lab1", "Rad3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2Lab1ConsoleApp2020", "Week2Lab1ConsoleApp2020\Week2Lab1ConsoleApp2020.csproj", "{129DBFF3-7E83-4076-9809-416FA844687F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week32021ClubDomain.Classes", "Week32021ClubDomain.Classes\Week32021ClubDomain.Classes.csproj", "{79C5DDB0-D1F9-4E1C-A3AE-3017FC193CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week32021MVCClub", "Week32021MVCClub\Week32021MVCClub.csproj", "{86ABA91D-8653-4C39-9DBE-297D527803FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{129DBFF3-7E83-4076-9809-416FA844687F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129DBFF3-7E83-4076-9809-416FA844687F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129DBFF3-7E83-4076-9809-416FA844687F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C5DDB0-D1F9-4E1C-A3AE-3017FC193CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C5DDB0-D1F9-4E1C-A3AE-3017FC193CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C5DDB0-D1F9-4E1C-A3AE-3017FC193CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C5DDB0-D1F9-4E1C-A3AE-3017FC193CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86ABA91D-8653-4C39-9DBE-297D527803FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86ABA91D-8653-4C39-9DBE-297D527803FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86ABA91D-8653-4C39-9DBE-297D527803FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86ABA91D-8653-4C39-9DBE-297D527803FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

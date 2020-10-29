@@ -23,10 +23,9 @@ namespace ActivityTracker.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]      
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Week2Lab12020GRP2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RAD3012021Week3Lab")]
         public string ActivityName {
             get {
                 return ((string)(this["ActivityName"]));
